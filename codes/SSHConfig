@@ -1,0 +1,15 @@
+  Host bulma-dev
+    HostName 149.202.159.49
+    User josuez
+    Port 40081
+
+Host bulma-preprod
+    HostName 149.202.159.49
+    User josuez
+    Port 40050
+
+Host maboo-server
+    HostName 102.16.254.6
+    User admin-maboo
+    ServerAliveInterval 60
+    ServerAliveCountMax 10

@@ -33,7 +33,7 @@ class ProductSeeder extends Seeder
         // -----------------------------
         // Charger les produits depuis products.json
         // -----------------------------
-        $jsonPath = database_path('seeders/products.json'); // à adapter selon l'emplacement réel
+        $jsonPath = database_path('data/products.json'); // à adapter selon l'emplacement réel
         if (!File::exists($jsonPath)) {
             $this->command->error("Fichier products.json introuvable au chemin : $jsonPath");
             return;

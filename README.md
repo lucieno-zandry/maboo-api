@@ -1,5 +1,11 @@
 # How to deploy
 
+## Create a docker network
+
+```
+docker network create mynet
+```
+
 ## Run the container
 
 ```
@@ -9,7 +15,7 @@ docker run --name {image_name} -p 8010:80 -d lucienozandry/{image_name}:latest
 or 
 
 ```
-docker run --name alofo_api -p 9000:80 -e APP_URL=http://102.16.254.6:9000 -v /etc/docker/alofo/api/dev/storage:/var/www/html/storage -v /etc/docker/alofo/api/dev/.env:/var/www/html/.env -d lucienozandry/alofo-api:latest
+docker run --network mynet --name maboo_api -p 8000:80 -e APP_URL=https://maboo.mg -v /etc/docker/api/master/storage:/var/www/html/storage -v /etc/docker/api/master/.env:/var/www/html/.env -d lucienozandry/maboo-api:latest
 ```
 
 ## Run typesense container
@@ -24,10 +30,13 @@ docker run --name alofo_api -p 9000:80 -e APP_URL=http://102.16.254.6:9000 -v /e
     volumes:
       - ./typesense-data:/data
     command: '--data-dir /data --api-key=xyz --enable-cors'
+  networks:
+    mynet:
+      external: true
 ```
 
 ## Run Redis
 
 ```
-docker run --name redis -p 6379:6379 -d redis
+docker run -d --network mynet --name redis -p 6379:6379 redis
 ```

@@ -26,7 +26,7 @@ class SettingSeeder extends Seeder
 
         Setting::create([
             'key' => 'currency',
-            'value' => 'EUR',
+            'value' => 'MGA',
             'type' => 'string',
             'group' => 'General',
             'label' => 'Currency',
@@ -36,7 +36,7 @@ class SettingSeeder extends Seeder
 
         Setting::create([
             'key' => 'app_name',
-            'value' => 'Alofo',
+            'value' => 'Maboo',
             'type' => 'string',
             'group' => 'General',
             'label' => 'App name',
@@ -46,7 +46,7 @@ class SettingSeeder extends Seeder
 
         Setting::create([
             'key' => 'contact_email',
-            'value' => 'support@alofo.com',
+            'value' => 'contact@maboo.mg',
             'type' => 'string',
             'group' => 'General',
             'label' => 'Contact Email',
@@ -66,7 +66,7 @@ class SettingSeeder extends Seeder
 
         Setting::create([
             'key' => 'default_country',
-            'value' => 'FR',
+            'value' => 'MG',
             'type' => 'string',
             'group' => 'Location and Delivery',
             'label' => 'Default country',
@@ -76,7 +76,7 @@ class SettingSeeder extends Seeder
 
         Setting::create([
             'key' => 'default_city',
-            'value' => 'Paris',
+            'value' => 'Antananarivo',
             'type' => 'string',
             'group' => 'Location and Delivery',
             'label' => 'Default City',
@@ -86,7 +86,7 @@ class SettingSeeder extends Seeder
 
         Setting::create([
             'key' => 'currency_enabled',
-            'value' => true,
+            'value' => false,
             'type' => 'boolean',
             'group' => 'Internationalization',
             'label' => 'Enable currency',
@@ -96,7 +96,7 @@ class SettingSeeder extends Seeder
 
         Setting::create([
             'key' => 'client_code_enabled',
-            'value' => true,
+            'value' => false,
             'type' => 'boolean',
             'group' => 'Marketing',
             'label' => 'Enable customer codes',

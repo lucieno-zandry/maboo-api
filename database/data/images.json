@@ -6,12 +6,12 @@
     },
     {
         "type": "database",
-        "name": "alofo"
+        "name": "maboo"
     },
     {
         "type": "table",
         "name": "images",
-        "database": "alofo",
+        "database": "maboo",
         "data": [
             {
                 "id": "4",

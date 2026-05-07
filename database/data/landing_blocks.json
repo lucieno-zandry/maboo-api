@@ -2,128 +2,128 @@
     {
         "type": "header",
         "version": "5.2.1",
-        "comment": "Exportation vers JSON pour PHPMyAdmin"
+        "comment": "Exportation vers JSON pour PHPMyAdmin - Adapté pour Maboo"
     },
     {
         "type": "database",
-        "name": "alofo"
+        "name": "maboo"
     },
     {
         "type": "table",
         "name": "landing_blocks",
-        "database": "alofo",
+        "database": "maboo",
         "data": [
             {
                 "id": "1",
                 "block_type": "hero",
-                "title": "Produit Vanille",
-                "subtitle": "Gousses Grade A cueillies à la main chez nos agriculteurs partenaires. Livrées chez vous en 48–72 heures partout en France.",
-                "content": "{\"eyebrow\": \"Directement de la SAVA, Madagascar.\", \"trustLine\": \"🔒 Paiement sécurisé · Colissimo suivi · Retours gratuits\", \"headlineSuffix\": \"Sans compromis\"}",
+                "title": "Pack Éveil Serein",
+                "subtitle": "Tapis d'éveil + hochet bois + livret pédagogique. Livré en 24–72h en France.",
+                "content": "{\"eyebrow\": \"Pour les premiers mois en douceur\", \"trustLine\": \"🔒 Paiement sécurisé · Livraison offerte dès 49€ · Retours sous 30 jours\", \"headlineSuffix\": \"Dès la naissance\"}",
                 "landing_able_type": "App\\Models\\Product",
-                "landing_able_id": "30",
-                "image_id": "4",
+                "landing_able_id": "101",
+                "image_id": "20",
                 "display_order": "0",
                 "is_active": "1",
-                "created_at": "2026-04-23 13:41:50",
-                "updated_at": "2026-04-25 09:59:31"
+                "created_at": "2026-05-07 10:00:00",
+                "updated_at": "2026-05-07 10:00:00"
             },
             {
                 "id": "5",
                 "block_type": "trust_bar",
-                "title": "Piliers de confiance",
+                "title": "Pourquoi les mamans nous font confiance",
                 "subtitle": null,
-                "content": "{\"pillars\": [{\"id\": \"1\", \"icon\": \"Sprout\", \"title\": \"Approvisionnement direct\", \"description\": \"Pas d'intermédiaires. Nous travaillons main dans la main avec les agriculteurs de la région SAVA.\"}, {\"id\": \"1777025616661\", \"icon\": \"Award\", \"title\": \"Uniquement Grade A\", \"description\": \"Chaque gousse, baie et feuille est sélectionnée à la main pour une humidité, un arôme et une apparence optimaux.\"}, {\"id\": \"1777025665894\", \"icon\": \"PackageCheck\", \"title\": \"48–72h en France\", \"description\": \"Expédié via Colissimo et FedEx depuis notre dépôt en France. Suivi de l'entrepôt à votre porte.\"}, {\"id\": \"1777025682399\", \"icon\": \"ShieldCheck\", \"title\": \"Paiement sécurisé\", \"description\": \"Paiement crypté SSL. Visa, Mastercard, PayPal — transactions entièrement protégées.\"}]}",
+                "content": "{\"pillars\": [{\"id\": \"1\", \"icon\": \"Baby\", \"title\": \"Certifié sans substances nocives\", \"description\": \"Tous nos produits respectent les normes CE et REACH. Aucun phtalate, BPA ou perturbateur endocrinien.\"}, {\"id\": \"1777025616661\", \"icon\": \"Heart\", \"title\": \"Sélectionné par des sages-femmes\", \"description\": \"Notre comité de professionnels de santé valide chaque produit avant sa mise en ligne.\"}, {\"id\": \"1777025665894\", \"icon\": \"Truck\", \"title\": \"Livraison rapide & discrète\", \"description\": \"Expédition sous 24h, colis neutre. Suivi SMS des livreurs adapté aux horaires des mamans.\"}, {\"id\": \"1777025682399\", \"icon\": \"ShieldCheck\", \"title\": \"Paiement 3x sans frais\", \"description\": \"Payez en trois fois dès 50€ d'achat. Sécurisé par notre partenaire bancaire.\"}]}",
                 "landing_able_type": null,
                 "landing_able_id": null,
                 "image_id": null,
                 "display_order": "1",
                 "is_active": "1",
-                "created_at": "2026-04-24 10:18:24",
-                "updated_at": "2026-04-25 09:59:31"
+                "created_at": "2026-05-07 10:00:00",
+                "updated_at": "2026-05-07 10:00:00"
             },
             {
                 "id": "9",
                 "block_type": "collection_grid",
-                "title": "Épices de l'Île Rouge",
-                "subtitle": "Trois familles de saveurs, une seule île d'origine.",
-                "content": "{\"items\": [{\"id\": \"a0deadf4-d195-4640-8d10-7934e8236e0c\", \"image\": {\"id\": 10, \"url\": \"http:\\/\\/localhost:8000\\/storage\\/landing-blocks\\/collections\\/CbuW4mo7KOtCVdox9UbwPTTko6elC95MFsSuGR0Q.webp\", \"width\": 1931, \"height\": 1087}, \"category\": {\"id\": 1, \"title\": \"Smartphones\", \"parent_id\": null, \"created_at\": \"2026-04-23T09:35:15.000000Z\", \"updated_at\": \"2026-04-23T09:35:15.000000Z\", \"cheapest_variant\": {\"id\": 24, \"sku\": \"GALAXY-S24-ULTRA-256GB-BLUE\", \"image\": null, \"price\": 502, \"stock\": 46, \"product\": {\"id\": 3, \"slug\": \"galaxy-s24-ultra-20368c3f-0a7c-4d32-a1d8-feb8114d1d09\", \"title\": \"Galaxy S24 Ultra\", \"created_at\": \"2026-04-23T09:35:16.000000Z\", \"updated_at\": \"2026-04-23T09:35:16.000000Z\", \"category_id\": 1, \"description\": \"The Galaxy S24 Ultra delivers premium Samsung performance with cutting-edge technology, powerful hardware, and sleek design.\"}, \"image_id\": null, \"width_cm\": null, \"height_cm\": null, \"length_cm\": null, \"weight_kg\": null, \"created_at\": \"2026-04-23T09:35:16.000000Z\", \"product_id\": 3, \"promotions\": [], \"updated_at\": \"2026-04-23T09:35:16.000000Z\", \"effective_price\": 502, \"variant_options\": [{\"id\": 14, \"pivot\": {\"variant_id\": 24, \"variant_option_id\": 14}, \"value\": \"256GB\", \"created_at\": \"2026-04-23T09:35:16.000000Z\", \"updated_at\": \"2026-04-23T09:35:16.000000Z\", \"variant_group\": {\"id\": 5, \"name\": \"Storage\", \"created_at\": \"2026-04-23T09:35:16.000000Z\", \"product_id\": 3, \"updated_at\": \"2026-04-23T09:35:16.000000Z\"}, \"variant_group_id\": 5}, {\"id\": 18, \"pivot\": {\"variant_id\": 24, \"variant_option_id\": 18}, \"value\": \"Blue\", \"created_at\": \"2026-04-23T09:35:16.000000Z\", \"updated_at\": \"2026-04-23T09:35:16.000000Z\", \"variant_group\": {\"id\": 6, \"name\": \"Color\", \"created_at\": \"2026-04-23T09:35:16.000000Z\", \"product_id\": 3, \"updated_at\": \"2026-04-23T09:35:16.000000Z\"}, \"variant_group_id\": 6}], \"applied_promotions\": []}}, \"image_id\": 10, \"subtitle\": \"Le joyau de Madagascar\", \"category_id\": 1, \"display_order\": 0, \"cheapest_variant\": {\"id\": 139, \"sku\": \"GALAXY-BOOK4-PRO-8GB\", \"image\": null, \"price\": 996, \"stock\": 0, \"product\": {\"id\": 17, \"slug\": \"galaxy-book4-pro-f9a88cce-ef8c-40a3-82ad-fb53d184ee96\", \"title\": \"Galaxy Book4 Pro\", \"created_at\": \"2026-04-23T09:35:17.000000Z\", \"updated_at\": \"2026-04-23T09:35:17.000000Z\", \"category_id\": 3, \"description\": \"The Galaxy Book4 Pro delivers premium Samsung performance with cutting-edge technology, powerful hardware, and sleek design.\"}, \"image_id\": null, \"width_cm\": null, \"height_cm\": null, \"length_cm\": null, \"weight_kg\": null, \"created_at\": \"2026-04-23T09:35:17.000000Z\", \"product_id\": 17, \"promotions\": [], \"updated_at\": \"2026-04-23T09:35:17.000000Z\", \"effective_price\": 996, \"variant_options\": [{\"id\": 94, \"pivot\": {\"variant_id\": 139, \"variant_option_id\": 94}, \"value\": \"8GB\", \"created_at\": \"2026-04-23T09:35:17.000000Z\", \"updated_at\": \"2026-04-23T09:35:17.000000Z\", \"variant_group\": {\"id\": 32, \"name\": \"RAM\", \"created_at\": \"2026-04-23T09:35:17.000000Z\", \"product_id\": 17, \"updated_at\": \"2026-04-23T09:35:17.000000Z\"}, \"variant_group_id\": 32}], \"applied_promotions\": []}}, {\"id\": \"2f46b10d-1c56-413b-be90-cb0a9342013f\", \"image\": {\"id\": 11, \"url\": \"http:\\/\\/localhost:8000\\/storage\\/landing-blocks\\/collections\\/YW26clSRollcdUvorERkQq61TCYjGcQutv7t5Jq0.webp\", \"width\": 3831, \"height\": 2155}, \"category\": {\"id\": 2, \"title\": \"Tablettes\", \"parent_id\": null, \"created_at\": \"2026-04-23T09:35:15.000000Z\", \"updated_at\": \"2026-04-23T09:35:15.000000Z\", \"cheapest_variant\": {\"id\": 107, \"sku\": \"GALAXY-TAB-S9-512GB-SILVER\", \"image\": null, \"price\": 551, \"stock\": 33, \"product\": {\"id\": 12, \"slug\": \"galaxy-tab-s9-596b1808-3a17-4a6a-bf8a-dacae6d9997a\", \"title\": \"Galaxy Tab S9+\", \"created_at\": \"2026-04-23T09:35:16.000000Z\", \"updated_at\": \"2026-04-23T09:35:16.000000Z\", \"category_id\": 2, \"description\": \"The Galaxy Tab S9+ delivers premium Samsung performance with cutting-edge technology, powerful hardware, and sleek design.\"}, \"image_id\": null, \"width_cm\": null, \"height_cm\": null, \"length_cm\": null, \"weight_kg\": null, \"created_at\": \"2026-04-23T09:35:17.000000Z\", \"product_id\": 12, \"promotions\": [], \"updated_at\": \"2026-04-23T09:35:17.000000Z\", \"effective_price\": 551, \"variant_options\": [{\"id\": 69, \"pivot\": {\"variant_id\": 107, \"variant_option_id\": 69}, \"value\": \"512GB\", \"created_at\": \"2026-04-23T09:35:17.000000Z\", \"updated_at\": \"2026-04-23T09:35:17.000000Z\", \"variant_group\": {\"id\": 23, \"name\": \"Storage\", \"created_at\": \"2026-04-23T09:35:17.000000Z\", \"product_id\": 12, \"updated_at\": \"2026-04-23T09:35:17.000000Z\"}, \"variant_group_id\": 23}, {\"id\": 71, \"pivot\": {\"variant_id\": 107, \"variant_option_id\": 71}, \"value\": \"Silver\", \"created_at\": \"2026-04-23T09:35:17.000000Z\", \"updated_at\": \"2026-04-23T09:35:17.000000Z\", \"variant_group\": {\"id\": 24, \"name\": \"Color\", \"created_at\": \"2026-04-23T09:35:17.000000Z\", \"product_id\": 12, \"updated_at\": \"2026-04-23T09:35:17.000000Z\"}, \"variant_group_id\": 24}], \"applied_promotions\": []}}, \"image_id\": 11, \"subtitle\": \"Intensité récoltée en forêt\", \"category_id\": 2, \"display_order\": 1}, {\"id\": \"6478917b-c743-425d-a062-448d11393ed2\", \"image\": {\"id\": 12, \"url\": \"http:\\/\\/localhost:8000\\/storage\\/landing-blocks\\/collections\\/nzoGxRW9gL2k4ZFTU1KTxB05Vh9P8GTkBGkdSwog.webp\", \"width\": 1123, \"height\": 792}, \"category\": {\"id\": 3, \"title\": \"Ordinateurs portables\", \"parent_id\": null, \"created_at\": \"2026-04-23T09:35:15.000000Z\", \"updated_at\": \"2026-04-23T09:35:15.000000Z\", \"cheapest_variant\": {\"id\": 139, \"sku\": \"GALAXY-BOOK4-PRO-8GB\", \"image\": null, \"price\": 996, \"stock\": 0, \"product\": {\"id\": 17, \"slug\": \"galaxy-book4-pro-f9a88cce-ef8c-40a3-82ad-fb53d184ee96\", \"title\": \"Galaxy Book4 Pro\", \"created_at\": \"2026-04-23T09:35:17.000000Z\", \"updated_at\": \"2026-04-23T09:35:17.000000Z\", \"category_id\": 3, \"description\": \"The Galaxy Book4 Pro delivers premium Samsung performance with cutting-edge technology, powerful hardware, and sleek design.\"}, \"image_id\": null, \"width_cm\": null, \"height_cm\": null, \"length_cm\": null, \"weight_kg\": null, \"created_at\": \"2026-04-23T09:35:17.000000Z\", \"product_id\": 17, \"promotions\": [], \"updated_at\": \"2026-04-23T09:35:17.000000Z\", \"effective_price\": 996, \"variant_options\": [{\"id\": 94, \"pivot\": {\"variant_id\": 139, \"variant_option_id\": 94}, \"value\": \"8GB\", \"created_at\": \"2026-04-23T09:35:17.000000Z\", \"updated_at\": \"2026-04-23T09:35:17.000000Z\", \"variant_group\": {\"id\": 32, \"name\": \"RAM\", \"created_at\": \"2026-04-23T09:35:17.000000Z\", \"product_id\": 17, \"updated_at\": \"2026-04-23T09:35:17.000000Z\"}, \"variant_group_id\": 32}], \"applied_promotions\": []}}, \"image_id\": 12, \"subtitle\": \"Le meilleur de l'Île Rouge\", \"category_id\": 3, \"display_order\": 2}], \"eyebrow\": \"Explorez la gamme\"}",
+                "title": "Les incontournables de la maternité",
+                "subtitle": "Trois univers pensés pour vous et votre bébé.",
+                "content": "{\"items\": [{\"id\": \"a0deadf4-d195-4640-8d10-7934e8236e0c\", \"image\": {\"id\": 21, \"url\": \"https://maboo.fr/storage/collections/collection-soin-bebe.webp\", \"width\": 1200, \"height\": 800}, \"category\": {\"id\": 10, \"title\": \"Soin & Hygiène bébé\", \"parent_id\": null, \"created_at\": \"2026-05-07T09:00:00Z\", \"updated_at\": \"2026-05-07T09:00:00Z\", \"cheapest_variant\": {\"id\": 201, \"sku\": \"CREME-CHANGE-200ML\", \"image\": null, \"price\": 12.90, \"stock\": 45, \"product\": {\"id\": 45, \"slug\": \"creme-irene-change\", \"title\": \"Crème change à l'aloès\", \"created_at\": \"2026-05-07T09:00:00Z\", \"updated_at\": \"2026-05-07T09:00:00Z\", \"category_id\": 10, \"description\": \"Protège et apaise les rougeurs des fesses, 99% d'ingrédients d'origine naturelle.\"}, \"image_id\": null, \"width_cm\": null, \"height_cm\": null, \"length_cm\": null, \"weight_kg\": null, \"created_at\": \"2026-05-07T09:00:00Z\", \"product_id\": 45, \"promotions\": [], \"updated_at\": \"2026-05-07T09:00:00Z\", \"effective_price\": 12.90, \"variant_options\": [], \"applied_promotions\": []}}, \"image_id\": 21, \"subtitle\": \"Doux dès la naissance\", \"category_id\": 10, \"display_order\": 0, \"cheapest_variant\": {\"id\": 201, \"sku\": \"CREME-CHANGE-200ML\", \"image\": null, \"price\": 12.90, \"stock\": 45, \"product\": {\"id\": 45, \"slug\": \"creme-irene-change\", \"title\": \"Crème change à l'aloès\", \"created_at\": \"2026-05-07T09:00:00Z\", \"updated_at\": \"2026-05-07T09:00:00Z\", \"category_id\": 10, \"description\": \"Protège et apaise les rougeurs des fesses, 99% d'ingrédients d'origine naturelle.\"}, \"image_id\": null, \"width_cm\": null, \"height_cm\": null, \"length_cm\": null, \"weight_kg\": null, \"created_at\": \"2026-05-07T09:00:00Z\", \"product_id\": 45, \"promotions\": [], \"updated_at\": \"2026-05-07T09:00:00Z\", \"effective_price\": 12.90, \"variant_options\": [], \"applied_promotions\": []}}}, {\"id\": \"2f46b10d-1c56-413b-be90-cb0a9342013f\", \"image\": {\"id\": 22, \"url\": \"https://maboo.fr/storage/collections/collection-mode-maman.webp\", \"width\": 1200, \"height\": 800}, \"category\": {\"id\": 11, \"title\": \"Mode & accessoires mère\", \"parent_id\": null, \"created_at\": \"2026-05-07T09:00:00Z\", \"updated_at\": \"2026-05-07T09:00:00Z\", \"cheapest_variant\": {\"id\": 202, \"sku\": \"DEBARDEUR-ALLAIT-BLEU\", \"image\": null, \"price\": 29.90, \"stock\": 28, \"product\": {\"id\": 46, \"slug\": \"debardeau-allaitement-bebe-maboo\", \"title\": \"Débardeur d'allaitement\", \"created_at\": \"2026-05-07T09:00:00Z\", \"updated_at\": \"2026-05-07T09:00:00Z\", \"category_id\": 11, \"description\": \"Coton bio, clips invisibles, coupe chic et pratique pour allaiter discrètement.\"}, \"image_id\": null, \"width_cm\": null, \"height_cm\": null, \"length_cm\": null, \"weight_kg\": null, \"created_at\": \"2026-05-07T09:00:00Z\", \"product_id\": 46, \"promotions\": [], \"updated_at\": \"2026-05-07T09:00:00Z\", \"effective_price\": 29.90, \"variant_options\": [], \"applied_promotions\": []}}, \"image_id\": 22, \"subtitle\": \"Confort et élégance\", \"category_id\": 11, \"display_order\": 1}, {\"id\": \"6478917b-c743-425d-a062-448d11393ed2\", \"image\": {\"id\": 23, \"url\": \"https://maboo.fr/storage/collections/collection-jouets-educatifs.webp\", \"width\": 1200, \"height\": 800}, \"category\": {\"id\": 12, \"title\": \"Jouets éveil & développement\", \"parent_id\": null, \"created_at\": \"2026-05-07T09:00:00Z\", \"updated_at\": \"2026-05-07T09:00:00Z\", \"cheapest_variant\": {\"id\": 203, \"sku\": \"TAPIS-EVEIL-FORET\", \"image\": null, \"price\": 49.90, \"stock\": 15, \"product\": {\"id\": 47, \"slug\": \"tapis-eveil-foret-magique\", \"title\": \"Tapis d'éveil Forêt magique\", \"created_at\": \"2026-05-07T09:00:00Z\", \"updated_at\": \"2026-05-07T09:00:00Z\", \"category_id\": 12, \"description\": \"Textures variées, arche de jouets amovible, lavable en machine.\"}, \"image_id\": null, \"width_cm\": null, \"height_cm\": null, \"length_cm\": null, \"weight_kg\": null, \"created_at\": \"2026-05-07T09:00:00Z\", \"product_id\": 47, \"promotions\": [], \"updated_at\": \"2026-05-07T09:00:00Z\", \"effective_price\": 49.90, \"variant_options\": [], \"applied_promotions\": []}}, \"image_id\": 23, \"subtitle\": \"Jouer pour grandir\", \"category_id\": 12, \"display_order\": 2}], \"eyebrow\": \"Nos coups de cœur du mois\"}",
                 "landing_able_type": null,
                 "landing_able_id": null,
                 "image_id": null,
                 "display_order": "3",
                 "is_active": "1",
-                "created_at": "2026-04-24 14:11:05",
-                "updated_at": "2026-04-25 09:59:31"
+                "created_at": "2026-05-07 10:00:00",
+                "updated_at": "2026-05-07 10:00:00"
             },
             {
                 "id": "10",
                 "block_type": "comparison",
-                "title": "Le Goût du Vrai",
-                "subtitle": "Toutes les vanilles ne se valent pas. Voici ce qui fait la différence.",
-                "content": "{\"rows\": [{\"id\": \"6ecd0f2a-b19c-435e-b8f0-1d244cf3d119\", \"ours\": \"Région SAVA, Madagascar\", \"theirs\": \"Inconnue\", \"criteria\": \"Traçabilité d'origine\"}, {\"id\": \"b58d0c02-1cce-4b59-8bdd-aacd244ac4c9\", \"ours\": \"Grade A (Premium)\", \"theirs\": \"Grade commercial\", \"criteria\": \"Qualité\"}, {\"id\": \"4e0ac88e-8d83-4eb9-a2e0-7f7ebe280aab\", \"ours\": \"Cueillie à la main\", \"theirs\": \"Récolte mécanique\", \"criteria\": \"Méthode de récolte\"}, {\"id\": \"ef3ec2c9-198f-484d-8c7b-cf1efdd6ba4e\", \"ours\": \"1,6–2,0%\", \"theirs\": \"< 0,8%\", \"criteria\": \"Teneur en vanilline\"}, {\"id\": \"1c35ce33-837a-4d58-ad3c-94b17f11ce87\", \"ours\": true, \"theirs\": false, \"criteria\": \"Transparence du prix/gramme\"}, {\"id\": \"99d44885-439c-419d-9b97-40c96b727740\", \"ours\": true, \"theirs\": false, \"criteria\": \"Partenariat direct avec les producteurs\"}], \"title\": \"Le Goût du Vrai\", \"eyebrow\": \"Pourquoi c'est important\", \"ourLabel\": \"🌿 Épices SAVA\", \"subtitle\": \"Toutes les vanilles ne se valent pas. Voici ce qui fait la différence.\", \"theirLabel\": \"Épices de supermarché\"}",
+                "title": "Pourquoi choisir Maboo ?",
+                "subtitle": "Toutes les boutiques ne se valent pas. Voici ce qui fait la différence.",
+                "content": "{\"rows\": [{\"id\": \"6ecd0f2a-b19c-435e-b8f0-1d244cf3d119\", \"ours\": \"Produits testés par des sages-femmes\", \"theirs\": \"Simple revendeur\", \"criteria\": \"Validation médicale\"}, {\"id\": \"b58d0c02-1cce-4b59-8bdd-aacd244ac4c9\", \"ours\": \"Certificats CE, EN71, Oeko-Tex\", \"theirs\": \"Normes minimales\", \"criteria\": \"Sécurité\"}, {\"id\": \"4e0ac88e-8d83-4eb9-a2e0-7f7ebe280aab\", \"ours\": \"Emballages éco-conçus et recyclables\", \"theirs\": \"Surcharge plastique\", \"criteria\": \"Éco-responsabilité\"}, {\"id\": \"ef3ec2c9-198f-484d-8c7b-cf1efdd6ba4e\", \"ours\": \"Conseillère dédiée (chat, téléphone)\", \"theirs\": \"FAQ automatique\", \"criteria\": \"Support client\"}, {\"id\": \"1c35ce33-837a-4d58-ad3c-94b17f11ce87\", \"ours\": true, \"theirs\": false, \"criteria\": \"Retours gratuits sous 30 jours\"}, {\"id\": \"99d44885-439c-419d-9b97-40c96b727740\", \"ours\": true, \"theirs\": false, \"criteria\": \"Programme de fidélité & ateliers en ligne\"}], \"title\": \"Pourquoi choisir Maboo ?\", \"eyebrow\": \"La transparence avant tout\", \"ourLabel\": \"🤱 Maboo\", \"subtitle\": \"Toutes les boutiques ne se valent pas. Voici ce qui fait la différence.\", \"theirLabel\": \"Autres sites puériculture\"}",
                 "landing_able_type": null,
                 "landing_able_id": null,
                 "image_id": null,
                 "display_order": "2",
                 "is_active": "1",
-                "created_at": "2026-04-24 17:12:34",
-                "updated_at": "2026-04-25 09:59:31"
+                "created_at": "2026-05-07 10:00:00",
+                "updated_at": "2026-05-07 10:00:00"
             },
             {
                 "id": "11",
                 "block_type": "faq",
-                "title": "Tout ce que vous avez vraiment besoin de savoir",
+                "title": "Les réponses aux questions des jeunes mamans",
                 "subtitle": null,
-                "content": "{\"items\": [{\"id\": \"d3a98c3f-44f6-4eeb-8d9b-39573c28bcd1\", \"answer\": \"Tous nos produits viennent directement de producteurs partenaires dans la région SAVA de Madagascar — la capitale mondiale de la vanille Bourbon et des épices sauvages. Nous rendons visite régulièrement à nos partenaires pour garantir qualité et commerce équitable.\", \"question\": \"D'où viennent vos produits ?\"}, {\"id\": \"7912de27-a201-4eb3-a6d7-f5d33fdd03d9\", \"answer\": \"Nous expédions depuis notre dépôt français sous 24 heures suivant votre commande. La livraison prend 48 à 72 heures en France métropolitaine via Colissimo suivi. Une livraison internationale est également possible — vérifiez lors du paiement.\", \"question\": \"Quels sont vos délais de livraison ?\"}, {\"id\": \"90d5483e-4ed3-4694-b269-d79718819552\", \"answer\": \"Conservez vos gousses dans un contenant hermétique à l'abri de la lumière et de la chaleur, idéalement à température ambiante (18–22°C). Bien stockées, elles conservent leur arôme pendant 2 ans.\", \"question\": \"Comment conserver les gousses de vanille ?\"}, {\"id\": \"2799085b-96f9-443d-a9b2-e5c869f48ad2\", \"answer\": \"Oui ! Nous proposons des tarifs dédiés aux chefs pâtissiers, restaurateurs et acheteurs professionnels. Contactez-nous via le formulaire ci-dessous ou par email pour un devis personnalisé.\", \"question\": \"Proposez-vous des commandes en gros ou professionnelles ?\"}, {\"id\": \"2f604ab8-8d99-464b-9fd3-ea03c826f57b\", \"answer\": \"Nous acceptons Visa, Mastercard et PayPal. Toutes les transactions sont cryptées SSL pour votre sécurité. Vous pouvez également payer en 3 fois pour les commandes supérieures à 50 €.\", \"question\": \"Quels moyens de paiement acceptez-vous ?\"}], \"eyebrow\": \"Des questions ?\"}",
+                "content": "{\"items\": [{\"id\": \"d3a98c3f-44f6-4eeb-8d9b-39573c28bcd1\", \"answer\": \"Oui, tous nos produits textiles (bodies, bonnets, gigoteuses) sont labellisés Oeko-Tex Standard 100. Les jouets respectent la norme EN71 et les cosmétiques bébé sont certifiés bio Cosmébio ou Nature & Progrès.\", \"question\": \"Vos produits sont-ils vraiment sans substances toxiques ?\"}, {\"id\": \"7912de27-a201-4eb3-a6d7-f5d33fdd03d9\", \"answer\": \"Nous livrons en France métropolitaine sous 24 à 72h (Colissimo ou Mondial Relay). Pour la Corse, les DOM-TOM et l'international, comptez 5 à 10 jours ouvrés. Livraison gratuite dès 49€.\", \"question\": \"Quels sont vos délais de livraison ?\"}, {\"id\": \"90d5483e-4ed3-4694-b269-d79718819552\", \"answer\": \"Bien sûr ! Retour gratuit sous 30 jours à partir de la réception. Utilisez l'étiquette prépayée dans votre colis. Aucune question posée, le remboursement est sous 48h.\", \"question\": \"Que faire si un produit ne convient pas à mon bébé ?\"}, {\"id\": \"2799085b-96f9-443d-a9b2-e5c869f48ad2\", \"answer\": \"Absolument. Nous avons un espace \"Maboo Pro\" pour les crèches, maternités et associations. Remise dégressive à partir de 5 articles. Contactez notre service commercial.\", \"question\": \"Proposez-vous des tarifs pour les professionnels (crèches, PMI) ?\"}, {\"id\": \"2f604ab8-8d99-464b-9fd3-ea03c826f57b\", \"answer\": \"Carte bancaire, PayPal, Apple Pay, Google Pay et paiement en 3x sans frais avec Alma dès 50€. Toutes les transactions sont cryptées SSL.\", \"question\": \"Quels moyens de paiement acceptez-vous ?\"}], \"eyebrow\": \"Des questions ? On vous répond\"}",
                 "landing_able_type": null,
                 "landing_able_id": null,
                 "image_id": null,
                 "display_order": "7",
                 "is_active": "1",
-                "created_at": "2026-04-24 17:37:43",
-                "updated_at": "2026-04-25 09:59:31"
+                "created_at": "2026-05-07 10:00:00",
+                "updated_at": "2026-05-07 10:00:00"
             },
             {
                 "id": "13",
                 "block_type": "story",
-                "title": "De la rivière SAVA à votre cuisine.",
-                "subtitle": "Une histoire ancrée dans la terre rouge.",
-                "content": "{\"body\": \"Dans les hauts plateaux du nord-est de Madagascar, la région SAVA abrite certaines des orchidées à vanille les plus prisées au monde. Nos fondateurs s'y sont rendus en 2018 non pas pour commercer — mais pour écouter. Comprendre le sol, les cycles de récolte et les familles qui entretiennent ces champs avec un soin exceptionnel. Ce qui a suivi est un modèle de partenariat direct qui supprime tous les intermédiaires et met le premium entre les mains de ceux qui le cultivent — et de ceux qui cuisinent avec.\", \"stats\": [{\"label\": \"Premier partenariat\", \"value\": \"2018\"}, {\"label\": \"Familles d'agriculteurs\", \"value\": \"12+\"}, {\"label\": \"Commerce direct\", \"value\": \"100%\"}], \"eyebrow\": \"Une histoire ancrée dans la terre rouge.\", \"imageCaption\": \"La région SAVA, nord-est de Madagascar — où notre vanille est cultivée.\"}",
+                "title": "De l'idée d'une maman à des milliers de foyers.",
+                "subtitle": "Maboo est né du constat d'un manque.",
+                "content": "{\"body\": \"En 2020, Clara, jeune maman de jumeaux, cherchait des produits sains, fiables et esthétiques pour ses bébés. Elle passait des heures à vérifier les étiquettes, à douter des avis faux. Avec deux amies (une sage‑femme et une acheteuse textile), elle a décidé de créer l'endroit qu'elle aurait aimé trouver. Aujourd'hui, Maboo sélectionne chaque produit selon une grille rigoureuse de 45 critères (toxicologie, développement durable, confort d'usage). Nous testons, nous filmons, nous comparons — pour que vous n'ayez qu'à cliquer et être sereine.\", \"stats\": [{\"label\": \"Mamans fondatrices\", \"value\": \"3\"}, {\"label\": \"Produits validés\", \"value\": \"250+\"}, {\"label\": \"Clients satisfaits\", \"value\": \"15 000+\"}], \"eyebrow\": \"Une histoire ancrée dans le réel\", \"imageCaption\": \"Clara, cofondatrice, en pleine séance de test avec ses jumeaux.\"}",
                 "landing_able_type": null,
                 "landing_able_id": null,
-                "image_id": "13",
+                "image_id": "24",
                 "display_order": "6",
                 "is_active": "1",
-                "created_at": "2026-04-25 08:37:26",
-                "updated_at": "2026-04-25 09:59:31"
+                "created_at": "2026-05-07 10:00:00",
+                "updated_at": "2026-05-07 10:00:00"
             },
             {
                 "id": "14",
                 "block_type": "testimonials",
-                "title": "Approuvé par la France",
+                "title": "La communauté Maboo",
                 "subtitle": null,
-                "content": "{\"eyebrow\": \"Ce que nos clients disent\", \"testimonials\": [{\"id\": \"b50b5b56-7c56-46fb-b56e-72437baa92a0\", \"text\": \"Les gousses de vanille sont extraordinaires — deux fois plus aromatiques que tout ce que j'ai trouvé sur le marché. Ma crème brûlée n'a jamais été aussi bonne.\", \"author\": \"Marie D.\", \"avatar\": \"https:\\/\\/avatars.steamstatic.com\\/0da18a0c6cad10c88555a63bc02ba0501a316ad2_medium.jpg\", \"rating\": 5, \"location\": \"Paris, France\", \"verified\": true}, {\"id\": \"d57d5fd1-11a8-4607-80d1-5e446cf23845\", \"text\": \"Livraison rapide, emballage impeccable. Les baies de poivre sont percutantes et fraîches. J'ai déjà recommandé deux fois.\", \"author\": \"Julien R.\", \"avatar\": \"https:\\/\\/avatars.steamstatic.com\\/e5a1c670a02b1ac36dd3ed27a5f60838d0368855_medium.jpg\", \"rating\": 5, \"location\": \"Lyon, France\", \"verified\": true}, {\"id\": \"01753719-7b38-4b8c-bdf5-144e030330ba\", \"text\": \"Enfin une boutique transparente sur les origines. Le label SAVA me donne confiance. La qualité est imbattable à ce prix.\", \"author\": \"Marie-Hélène B.\", \"avatar\": \"https:\\/\\/avatars.steamstatic.com\\/b097548a6319bb1489d045aef1157a93dfa18103_medium.jpg\", \"rating\": 5, \"location\": \"Bordeaux, France\", \"verified\": true}]}",
+                "content": "{\"eyebrow\": \"Recommandé par des milliers de mamans\", \"testimonials\": [{\"id\": \"b50b5b56-7c56-46fb-b56e-72437baa92a0\", \"text\": \"Le tapis d'éveil est magnifique, les couleurs tiennent bien après plusieurs lavages. Mon bébé adore le hochet en bois. Je recommande sans hésiter !\", \"author\": \"Camille L.\", \"avatar\": \"https://maboo.fr/avatars/camille.jpg\", \"rating\": 5, \"location\": \"Nantes, France\", \"verified\": true}, {\"id\": \"d57d5fd1-11a8-4607-80d1-5e446cf23845\", \"text\": \"J'étais sceptique sur le tire-lait électrique mais les conseils par chat m'ont convaincue. Livré en 48h, remboursé sous 3 jours quand je n'en ai pas eu besoin. Top !\", \"author\": \"Laura M.\", \"avatar\": \"https://maboo.fr/avatars/laura.jpg\", \"rating\": 5, \"location\": \"Lyon, France\", \"verified\": true}, {\"id\": \"01753719-7b38-4b8c-bdf5-144e030330ba\", \"text\": \"Enfin des bodies avec des boutons pression bien placés ! Et la crème change répare vraiment les rougeurs. Maboo, c'est la promesse tenue.\", \"author\": \"Sophie R.\", \"avatar\": \"https://maboo.fr/avatars/sophie.jpg\", \"rating\": 5, \"location\": \"Bordeaux, France\", \"verified\": true}]}",
                 "landing_able_type": null,
                 "landing_able_id": null,
                 "image_id": null,
                 "display_order": "4",
                 "is_active": "1",
-                "created_at": "2026-04-25 09:00:52",
-                "updated_at": "2026-04-25 09:59:31"
+                "created_at": "2026-05-07 10:00:00",
+                "updated_at": "2026-05-07 10:00:00"
             },
             {
                 "id": "15",
                 "block_type": "cta_banner",
-                "title": "Votre cuisine mérite l'authentique.",
-                "subtitle": "Livraison gratuite dès 50 € d'achat · Colissimo suivi",
-                "content": "{\"eyebrow\": \"Prêt à goûter la différence ?\"}",
+                "title": "Votre maternité mérite le meilleur.",
+                "subtitle": "Livraison gratuite dès 49€ · Retours offerts 30 jours",
+                "content": "{\"eyebrow\": \"Offrez le bien-être à vous et bébé\"}",
                 "landing_able_type": "App\\Models\\Product",
-                "landing_able_id": "10",
-                "image_id": "14",
-                "display_order": "4",
+                "landing_able_id": "55",
+                "image_id": "25",
+                "display_order": "5",
                 "is_active": "1",
-                "created_at": "2026-04-25 09:59:21",
-                "updated_at": "2026-04-25 10:03:38"
+                "created_at": "2026-05-07 10:00:00",
+                "updated_at": "2026-05-07 10:00:00"
             }
         ]
     }
